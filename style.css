@@ -1,20 +1,23 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-
-/*  */
+ */
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.452);
     padding: 20px 40px;
+    border-radius: 1em;
+}
+
+html {
+ background-image: url('https://parispeaceforum.org/wp-content/uploads/2021/10/NET-ZERO-SPACE-INITIATIVE-1.png');
 }
 
 .header a {
     float: left;
-    color: black;
+    color: rgb(33, 5, 110);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -30,14 +33,14 @@
 }
 
 .header a.favorites {
-    background-color: white;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.476);
+    color: rgb(255, 255, 255);
     font-style: normal;
 }
 
 .header a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: rgba(221, 221, 221, 0.766);
+    color: rgb(255, 255, 255);
 }
 
 .header-right {
@@ -49,15 +52,20 @@
     /* align-items: center; */
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 #card {
     width: 30%;
-    box-shadow: 0 0 4px 3px pink;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.674);
     text-align: justify;
     padding: 1em;
+    margin-right: auto;
     margin-bottom: 2em;
-    background-color: #fff;
+    margin-top: 1em;
+    background-color: rgba(0, 0, 0, 0.766);
+    border-radius: 1%;
+    color: rgb(255, 255, 255);
 }
 
 .images {
@@ -84,7 +92,7 @@
 }
 
 button {
-    background-color: darksalmon;
+    background-color: rgb(202, 131, 107);
     border: 0;
     border-radius: 4px;
     color: #fff;
